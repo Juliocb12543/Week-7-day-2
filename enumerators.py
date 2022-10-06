@@ -1,21 +1,12 @@
 def enum():
   # enumerate
   print("enumerate")
-  # enumerate is a very useful function to use with for loops. Let's imagine the following situation:
-  
-  # index_count = 0
-  
-  # for letter in 'abcde':
-  #     print("At index {} the letter is {}".format(index_count,letter))
-  #     index_count += 1
-  # Keeping track of how many loops you've gone through is so common, that enumerate was created so you don't need to worry about creating and updating this index_count or loop_count variable
-  
-  
-  # Notice the tuple unpacking!
-  
-  # for i,letter in enumerate('abcde'):
-  #     print("At index {} the letter is {}".format(i,letter))
-  
+  # enumerate is a very useful function to use with for loops. Let's imagine the following 
+  my_list = ['a', 'b', 'c']
+  print(my_list)
+  for index, item in enumerate(range(0,50)):
+    print(index, item)
+
   
   ##############################enumerators in python #####################################################
   
