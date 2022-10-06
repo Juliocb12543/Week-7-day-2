@@ -17,13 +17,13 @@ from random import random
 from loops import loop
 from ranges import ranges
 from enumerators import enum
-from zip import zip
+from zip import zip1
 from min_max import min_max
 # decisions()
 # comparison()
 #loop()
 # random()
 #ranges()
-enum()
-# zip()
+#enum()
+zip1()
 # min_max()
